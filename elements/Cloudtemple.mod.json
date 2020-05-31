@@ -2,10 +2,10 @@
   "_fv": 6,
   "_type": "structure",
   "definition": {
-    "structure": "cloud_temple",
+    "structure": "cloud_temple_1",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 15000,
+    "spawnProbability": 9946,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Air",

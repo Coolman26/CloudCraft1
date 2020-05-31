@@ -216,7 +216,7 @@
       }
     },
     {
-      "name": "CloudTemple",
+      "name": "Cloudtemple",
       "type": "structure",
       "sortid": 19,
       "compiles": true,
@@ -229,8 +229,8 @@
   "language_map": {
     "en_us": {
       "item.iridescentsword.name": "Iridescent Sword",
-      "fluid.cloudyoil": "CloudyOil",
       "fluid.liquidsunlight": "LiquidSunlight",
+      "fluid.cloudyoil": "CloudyOil",
       "item.mysticbutterflywings.name": "Mystic Butter Fly Wings",
       "item.wingedamourbody.name": "Iridescent ChestPlate",
       "item.wingedamourhelmet.name": "Iridescent Helmet",
