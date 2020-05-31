@@ -158,21 +158,39 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "IridescentShears",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MysticButterFlyWings",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "tile.hybridaltar.name": "Hybrid Altar",
       "item.iridescentsword.name": "Iridescent Sword",
       "fluid.liquidsunlight": "LiquidSunlight",
+      "item.mysticbutterflywings.name": "Mystic Butter Fly Wings",
+      "item.wingedamourbody.name": "Iridescent ChestPlate",
+      "item.wingedamourhelmet.name": "Iridescent Helmet",
+      "tile.hybridaltar.name": "Hybrid Altar",
       "item.rainbowingot.name": "Rainbow Ingot",
       "item.wingedamourlegs.name": "Iridescent Leggings",
+      "item.iridescentshears.name": "Iridescent Shears",
       "item.iridescentingot.name": "Iridescent Ingot",
-      "item.wingedamourbody.name": "Iridescent ChestPlate",
       "item.iridescentpickaxe.name": "Iridescent Pickaxe",
-      "item.wingedamourhelmet.name": "Iridescent Helmet",
       "item.wingedamourboots.name": "Iridescent Boots",
       "tile.iridescentore.name": "Iridescent Ore"
     }
