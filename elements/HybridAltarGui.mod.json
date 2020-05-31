@@ -1,0 +1,96 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 358,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Hybrid Altar",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Hybrid Altar",
+          "x": 364,
+          "y": 79
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 336,
+          "y": 113
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "name": "Slot #1",
+          "x": 475,
+          "y": 113
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "name": "Slot #2",
+          "x": 336,
+          "y": 191
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "name": "Slot #3",
+          "x": 474,
+          "y": 191
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "name": "Slot #4",
+          "x": 403,
+          "y": 149
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Fuse",
+          "onClick": {
+            "name": "HybridAltarUpdateTick"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "Fuse",
+          "x": 381,
+          "y": 106
+        }
+      }
+    ]
+  }
+}

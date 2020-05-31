@@ -1,0 +1,42 @@
+{
+  "group": "cloudcraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "cloudcraft:iridescentingot"
+    },
+    "1": {
+      "item": "minecraft:glass"
+    },
+    "2": {
+      "item": "cloudcraft:iridescentingot"
+    },
+    "3": {
+      "item": "cloudcraft:iridescentingot"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "cloudcraft:iridescentingot"
+    },
+    "6": {
+      "item": "cloudcraft:iridescentingot"
+    },
+    "7": {
+      "item": "cloudcraft:iridescentingot"
+    },
+    "8": {
+      "item": "cloudcraft:iridescentingot"
+    }
+  },
+  "result": {
+    "item": "cloudcraft:hybridaltar",
+    "count": 1
+  }
+}

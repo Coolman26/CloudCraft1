@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "fluid",
+  "definition": {
+    "name": "LiquidSunlight",
+    "textureStill": "liquidsunlightstill1",
+    "textureFlowing": "liquidsunlightflowing",
+    "luminosity": 8,
+    "density": 1000,
+    "viscosity": 900,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "spawnWorldTypes": [
+      "Surface"
+    ]
+  }
+}

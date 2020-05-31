@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cloudcraft:blocks/iridescentore",
+    "up": "cloudcraft:blocks/iridescentore",
+    "north": "cloudcraft:blocks/iridescentore",
+    "east": "cloudcraft:blocks/iridescentore",
+    "south": "cloudcraft:blocks/iridescentore",
+    "west": "cloudcraft:blocks/iridescentore",
+    "particle": "cloudcraft:blocks/iridescentore"
+  }
+}

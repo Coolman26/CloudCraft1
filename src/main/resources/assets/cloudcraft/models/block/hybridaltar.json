@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cloudcraft:blocks/hybridaltarbottom",
+    "up": "cloudcraft:blocks/hybridaltartop1",
+    "north": "cloudcraft:blocks/hybridaltarsidesother1",
+    "east": "cloudcraft:blocks/hybridaltarsides1",
+    "south": "cloudcraft:blocks/hybridaltarsidesother1",
+    "west": "cloudcraft:blocks/hybridaltarsides1",
+    "particle": "cloudcraft:blocks/hybridaltarbottom"
+  }
+}
