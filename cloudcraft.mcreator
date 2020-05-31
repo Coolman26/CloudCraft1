@@ -174,6 +174,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "CloudyOil",
+      "type": "fluid",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -182,6 +190,7 @@
     "en_us": {
       "item.iridescentsword.name": "Iridescent Sword",
       "fluid.liquidsunlight": "LiquidSunlight",
+      "fluid.cloudyoil": "CloudyOil",
       "item.mysticbutterflywings.name": "Mystic Butter Fly Wings",
       "item.wingedamourbody.name": "Iridescent ChestPlate",
       "item.wingedamourhelmet.name": "Iridescent Helmet",
