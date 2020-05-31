@@ -7,13 +7,17 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemShears;
 import net.minecraft.item.Item;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
+import net.mcreator.cloudcraft.procedure.ProcedureIridescentShearsBlockDestroyedWithTool;
 import net.mcreator.cloudcraft.ElementsCloudCraft;
 
 @ElementsCloudCraft.ModElement.Tag
@@ -38,6 +42,24 @@ public class ItemIridescentShears extends ElementsCloudCraft.ModElement {
 			@Override
 			public float getDestroySpeed(ItemStack par1ItemStack, IBlockState par2Block) {
 				return 8f;
+			}
+
+			@Override
+			public boolean onBlockDestroyed(ItemStack itemstack, World world, IBlockState bl, BlockPos pos, EntityLivingBase entity) {
+				boolean retval = super.onBlockDestroyed(itemstack, world, bl, pos, entity);
+				int x = pos.getX();
+				int y = pos.getY();
+				int z = pos.getZ();
+				{
+					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					$_dependencies.put("entity", entity);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					ProcedureIridescentShearsBlockDestroyedWithTool.executeProcedure($_dependencies);
+				}
+				return retval;
 			}
 
 			@Override

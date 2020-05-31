@@ -22,6 +22,9 @@
       {
         "value": "CUSTOM:IridescentIngot"
       }
-    ]
+    ],
+    "onBlockDestroyedWithTool": {
+      "name": "IridescentShearsBlockDestroyedWithTool"
+    }
   }
 }

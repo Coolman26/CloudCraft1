@@ -84,9 +84,9 @@ public class BlockLiquidSunlight extends ElementsCloudCraft.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		int i = chunkX + random.nextInt(5) + 8;
-		int j = random.nextInt(80);
-		int k = chunkZ + random.nextInt(5) + 8;
+		int i = chunkX + random.nextInt(16) + 8;
+		int j = random.nextInt(256);
+		int k = chunkZ + random.nextInt(16) + 8;
 		new WorldGenLakes(block).generate(world, random, new BlockPos(i, j, k));
 	}
 }
